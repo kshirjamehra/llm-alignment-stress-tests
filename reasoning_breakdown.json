@@ -1,0 +1,964 @@
+{
+  "tests": [
+    {
+      "id": "0fc198e9-8755-4460-b86a-668f5f86ffa9",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'prcroyzbkkelybyrwaijvfualhthkeipgz'. How many times does the letter 'f' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "1",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "cb9d9042-fc07-47a9-9792-ee5aa76d9759",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'ssdquqjmezvzxaepnfbjulyp'. How many times does the letter 'c' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "0",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "9c8cf175-6f77-4936-adc9-1655c84e3118",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'kxzuanbvsyweqxdqvtaimkzjfwpuerjpdabjdkoymf'. How many times does the letter 'z' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "2",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "829f7c84-4a8d-4459-9f6f-72587cf8a4a2",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'bxykihdbmguedgqxuf'. How many times does the letter 't' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "0",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "10a271b1-b6c6-40ad-a440-b5d42b081971",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'zxieqqxkjxrekywnkmyiwshfidzvwdokgdqxoozp'. How many times does the letter 'g' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "1",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "2ec946da-a145-45fc-8847-75477feef55d",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'xpijhluafcywwizdxdfgeegw'. How many times does the letter 'a' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "1",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "d2446352-1a15-4b10-a0a4-8287ecc9fb92",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'jqostvkijkrbneuqxwrkxzozflyspeomkdmfog'. How many times does the letter 'a' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "0",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "1a3c883a-7248-4165-8b9b-044bd33f0a16",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'tcxdaeybmjfeqnmzeifbhgtiilvhlcbcut'. How many times does the letter 'q' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "1",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "b53c8d08-5937-414f-8020-d8061900f07e",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'rldxomxrtbbayzhtcfyuvqqvirzcixlr'. How many times does the letter 'r' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "4",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "940450af-eab2-4c85-914e-77c9050788f1",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'lxceabrvbkqtuozyrbtuaj'. How many times does the letter 'l' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "1",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "fbbfa513-bee5-437a-8a2e-421be2925a68",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'vlwovjqkqruixwvmyniom'. How many times does the letter 'v' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "3",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "82a9d1f8-db24-48c5-a354-cb460aaa73ef",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'cdzpeexfhxuapwmpxiwddfiekmj'. How many times does the letter 't' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "0",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "a45a4b31-3c60-4152-b622-f0407d568362",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'yfbufgmvjvgovdvuaxnmhokszhttoewxmqxjroafdy'. How many times does the letter 'b' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "1",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "f690c935-8e32-4fd9-be87-7cd9115c7662",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'knnzihrqgwaxhvjaprmvquugnsfkwvoehv'. How many times does the letter 'i' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "1",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "f2a76ff3-c066-441f-bc94-032a6d6799ed",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'bbyyaodsmclzgucnnsoisvjciaxjcrxeowldtjyeflv'. How many times does the letter 'z' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "1",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "f82b59a4-5e6a-448d-987a-4a640b0c6bd5",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'nqaifbfpoeljnacj'. How many times does the letter 'j' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "2",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "8fce778d-0d25-4002-9457-ef753ce3491b",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'mssaivlcmpnotngqacyrjwocdbnxoxcpnoeq'. How many times does the letter 'y' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "1",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "b90cd47c-5708-4917-8b07-455162310971",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'psoirzcajqwjjiezxyinpkyvudrnrshdihlw'. How many times does the letter 'u' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "1",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "61a57a95-aa5f-488b-b8fb-dd63ad9b248a",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'cghzaadscrkuonfbhkitmvgqufmprjid'. How many times does the letter 'w' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "0",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "c4488c7c-c950-44b9-8641-626e4bf764fb",
+      "category": "Algorithmic Counting",
+      "prompt": "Consider the following concatenated nonsense string: 'tcuiswcauzskdpbgiizp'. How many times does the letter 'k' appear in this string? Think step by step and then provide the final count.",
+      "expected_answer": "1",
+      "common_failure_mode": "Token-blindness: The LLM processes the string as abstract tokens rather than individual characters, causing it to miscount the occurrences of the specific character.",
+      "image_url": null
+    },
+    {
+      "id": "a01693c5-60f7-48ad-9d5e-a4af47f96cb0",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining quantum computing, but every sentence must end with a word that has exactly three vowels. Do not use the letter 'a' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "685c48b6-ded2-445d-b5c6-13cdb91e7f11",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining black holes, but every sentence must end with a word that has exactly three vowels. Do not use the letter 's' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "ec7ef4a0-5fc7-4422-a1f2-614c1f815f2d",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining photosynthesis, but every sentence must end with a word that has exactly three vowels. Do not use the letter 'a' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "2e745ac8-8430-4c93-945c-aad027782c1c",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining ancient Rome, but every sentence must end with a word that has exactly three vowels. Do not use the letter 'a' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "a16d1f47-e1c7-48fd-87bc-493c2069b8df",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining machine learning, but every sentence must end with a word that has exactly three vowels. Do not use the letter 'a' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "ce254d7c-ba23-4b57-b02b-9bfe9256c10e",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining neural networks, but every sentence must end with a word that has exactly three vowels. Do not use the letter 'a' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "384fed26-8024-4488-9442-51d415fa14db",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining the history of jazz, but every sentence must end with a word that has exactly three vowels. Do not use the letter 't' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "dc352d0d-ab0a-4eed-8416-98bb0c1933c9",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining blockchain technology, but every sentence must end with a word that has exactly three vowels. Do not use the letter 's' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "cf1ef97b-07ad-420f-bb0b-b6800dbcf465",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining CRISPR gene editing, but every sentence must end with a word that has exactly three vowels. Do not use the letter 't' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "2ac58185-94ca-4a07-b53f-20abc361a33d",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining the deep sea, but every sentence must end with a word that has exactly three vowels. Do not use the letter 's' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "4e7b1f2f-df19-4e95-bbc0-3735a6fd6b4e",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining mars colonization, but every sentence must end with a word that has exactly three vowels. Do not use the letter 's' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "34b4aed3-f330-43b8-8918-597d59e1651e",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining the water cycle, but every sentence must end with a word that has exactly three vowels. Do not use the letter 'e' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "7c322635-1a67-4d74-bcec-f2bd7cd31312",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining string theory, but every sentence must end with a word that has exactly three vowels. Do not use the letter 't' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "727a81bd-62b3-46b1-9ac6-9b8d04af88fe",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining volcanic eruptions, but every sentence must end with a word that has exactly three vowels. Do not use the letter 'a' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "273411c8-b2d2-481c-b3de-3edec220dddd",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining the human immune system, but every sentence must end with a word that has exactly three vowels. Do not use the letter 't' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "e9c758c7-b047-4a8a-a155-abeeb99aa84a",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining artificial intelligence, but every sentence must end with a word that has exactly three vowels. Do not use the letter 'a' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "3ef6d482-b77b-4ef0-ac4c-9397eed53922",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining classical mechanics, but every sentence must end with a word that has exactly three vowels. Do not use the letter 's' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "d01caddb-3f37-4f7f-8e4a-799a36c2696f",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining the internet of things, but every sentence must end with a word that has exactly three vowels. Do not use the letter 's' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "689c3f77-17d3-447d-96ee-5d9b3faec212",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining renewable energy, but every sentence must end with a word that has exactly three vowels. Do not use the letter 't' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "7533b7d6-e15a-402f-a3c2-a9a56624324a",
+      "category": "Negation & Constraint",
+      "prompt": "Write a paragraph explaining cryptography, but every sentence must end with a word that has exactly three vowels. Do not use the letter 's' anywhere in your response.",
+      "expected_answer": "A paragraph explaining the topic where NO words contain the forbidden letter, and EVERY sentence ends with a word containing exactly three vowels.",
+      "common_failure_mode": "Token-blindness & Constraint Forgetting: The LLM tends to accidentally include the forbidden letter due to subword tokenization, or fails the structural constraint (3 vowels at the end of each sentence) because it focuses on the topic explanation.",
+      "image_url": null
+    },
+    {
+      "id": "834c4d87-5077-4a31-a105-d11bb92535ac",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves LA at 7 PM Tuesday, flies 9 hours to NY, waits 6 hours, flies 7 hours to Tokyo. Accounting for daylight savings and time zones, what is the exact local time and day in Tokyo upon arrival?",
+      "expected_answer": "The correct calculated time in Tokyo time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "04bb7064-6143-40a9-946b-414c4bed7877",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves London at 8 PM Wednesday, flies 7 hours to Sydney, waits 7 hours, flies 11 hours to LA. Accounting for daylight savings and time zones, what is the exact local time and day in LA upon arrival?",
+      "expected_answer": "The correct calculated time in LA time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "63dcaf1b-b03f-46de-a853-887e27cdc9b4",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves NY at 8 PM Saturday, flies 8 hours to LA, waits 2 hours, flies 12 hours to Sydney. Accounting for daylight savings and time zones, what is the exact local time and day in Sydney upon arrival?",
+      "expected_answer": "The correct calculated time in Sydney time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "e836edd7-b461-4437-bd6e-7521c5efa77f",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Sydney at 10 PM Saturday, flies 14 hours to London, waits 4 hours, flies 9 hours to LA. Accounting for daylight savings and time zones, what is the exact local time and day in LA upon arrival?",
+      "expected_answer": "The correct calculated time in LA time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "a4d21d95-46cc-4c3d-86f0-a6eb8410c691",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Tokyo at 5 PM Tuesday, flies 13 hours to LA, waits 1 hours, flies 5 hours to NY. Accounting for daylight savings and time zones, what is the exact local time and day in NY upon arrival?",
+      "expected_answer": "The correct calculated time in NY time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "86991891-0412-433c-bcab-d0cdc4c953de",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Sydney at 9 AM Monday, flies 9 hours to LA, waits 6 hours, flies 11 hours to Tokyo. Accounting for daylight savings and time zones, what is the exact local time and day in Tokyo upon arrival?",
+      "expected_answer": "The correct calculated time in Tokyo time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "3820051f-16e0-40e4-b395-f904e8f575b3",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Sydney at 6 AM Monday, flies 7 hours to London, waits 8 hours, flies 11 hours to Tokyo. Accounting for daylight savings and time zones, what is the exact local time and day in Tokyo upon arrival?",
+      "expected_answer": "The correct calculated time in Tokyo time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "58801602-d75b-4bd6-a43d-d07449a4b68a",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Tokyo at 6 PM Friday, flies 6 hours to London, waits 8 hours, flies 8 hours to NY. Accounting for daylight savings and time zones, what is the exact local time and day in NY upon arrival?",
+      "expected_answer": "The correct calculated time in NY time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "6075dd68-a267-4def-9554-9bc73aeed830",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves LA at 8 AM Thursday, flies 7 hours to London, waits 4 hours, flies 4 hours to Sydney. Accounting for daylight savings and time zones, what is the exact local time and day in Sydney upon arrival?",
+      "expected_answer": "The correct calculated time in Sydney time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "964caeed-2d9b-492e-bfd4-ca58e11f7149",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves NY at 3 AM Tuesday, flies 5 hours to London, waits 3 hours, flies 7 hours to LA. Accounting for daylight savings and time zones, what is the exact local time and day in LA upon arrival?",
+      "expected_answer": "The correct calculated time in LA time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "46107789-0b7d-4eef-988f-bc515b481a10",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Sydney at 9 AM Friday, flies 5 hours to NY, waits 2 hours, flies 8 hours to LA. Accounting for daylight savings and time zones, what is the exact local time and day in LA upon arrival?",
+      "expected_answer": "The correct calculated time in LA time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "a729ba11-424d-41d5-a9da-166a9aa10afd",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Sydney at 2 AM Sunday, flies 11 hours to London, waits 1 hours, flies 10 hours to Tokyo. Accounting for daylight savings and time zones, what is the exact local time and day in Tokyo upon arrival?",
+      "expected_answer": "The correct calculated time in Tokyo time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "ebc1670b-6892-462f-823f-34556cf26134",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves LA at 6 PM Friday, flies 8 hours to London, waits 1 hours, flies 9 hours to Sydney. Accounting for daylight savings and time zones, what is the exact local time and day in Sydney upon arrival?",
+      "expected_answer": "The correct calculated time in Sydney time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "04c2672f-cd39-4462-acbb-e18699445ca4",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves NY at 3 PM Thursday, flies 8 hours to Sydney, waits 2 hours, flies 12 hours to Tokyo. Accounting for daylight savings and time zones, what is the exact local time and day in Tokyo upon arrival?",
+      "expected_answer": "The correct calculated time in Tokyo time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "acb18bfb-0c4f-460c-9256-fbb2469a247c",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Sydney at 8 AM Tuesday, flies 14 hours to London, waits 4 hours, flies 10 hours to LA. Accounting for daylight savings and time zones, what is the exact local time and day in LA upon arrival?",
+      "expected_answer": "The correct calculated time in LA time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "2e9fc611-65fe-4346-b46a-bd9fb081a336",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves NY at 7 PM Monday, flies 9 hours to LA, waits 8 hours, flies 6 hours to London. Accounting for daylight savings and time zones, what is the exact local time and day in London upon arrival?",
+      "expected_answer": "The correct calculated time in London time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "f61468d5-5a89-469b-b897-70322cd1f4bf",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Sydney at 6 AM Wednesday, flies 13 hours to NY, waits 1 hours, flies 11 hours to London. Accounting for daylight savings and time zones, what is the exact local time and day in London upon arrival?",
+      "expected_answer": "The correct calculated time in London time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "6abc38be-36ae-4aef-a005-06a371019b72",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Sydney at 7 AM Saturday, flies 13 hours to LA, waits 3 hours, flies 4 hours to Tokyo. Accounting for daylight savings and time zones, what is the exact local time and day in Tokyo upon arrival?",
+      "expected_answer": "The correct calculated time in Tokyo time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "a9cda2dc-971c-48fa-b5b6-803bd5f25247",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Tokyo at 3 PM Friday, flies 7 hours to Sydney, waits 4 hours, flies 11 hours to London. Accounting for daylight savings and time zones, what is the exact local time and day in London upon arrival?",
+      "expected_answer": "The correct calculated time in London time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "148f5a68-e16c-47ee-9fc5-8b07ee3c509f",
+      "category": "Timezone & Relativity",
+      "prompt": "A flight leaves Sydney at 10 AM Sunday, flies 13 hours to NY, waits 8 hours, flies 4 hours to London. Accounting for daylight savings and time zones, what is the exact local time and day in London upon arrival?",
+      "expected_answer": "The correct calculated time in London time zone. (Evaluation requires executing the exact delta over real timezone conversions).",
+      "common_failure_mode": "Temporal Hallucination: The LLM adds hours sequentially but forgets or hallucinates the timezone offsets (DST boundaries) between the intermediate and final nodes, reporting a relative time rather than absolute local time.",
+      "image_url": null
+    },
+    {
+      "id": "ddf4c306-e656-4c9b-8859-9a8f45ca2be2",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event C initiates A. A nullifies B. B is required for D. If Event C occurs, map the probability of D occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since C initiates A, A happens. Since A nullifies B, B cannot happen. Since B is required for D, D cannot happen. Probability of D is 0%. Blocker is A preventing B.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "e98e8a9d-26ff-440e-a1c7-fddb499ef055",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event C triggers D. D blocks E. E is required for B. If Event C occurs, map the probability of B occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since C triggers D, D happens. Since D blocks E, E cannot happen. Since E is required for B, B cannot happen. Probability of B is 0%. Blocker is D preventing E.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "b5bf1089-3949-45d8-bd72-b81c18b44979",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event D initiates E. E strictly prevents A. A is required for B. If Event D occurs, map the probability of B occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since D initiates E, E happens. Since E strictly prevents A, A cannot happen. Since A is required for B, B cannot happen. Probability of B is 0%. Blocker is E preventing A.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "f56f4f09-aa9b-4069-8e47-0ed6cd6356a7",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event A causes C. C strictly prevents D. D is required for E. If Event A occurs, map the probability of E occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since A causes C, C happens. Since C strictly prevents D, D cannot happen. Since D is required for E, E cannot happen. Probability of E is 0%. Blocker is C preventing D.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "57f8850d-df14-430d-9d00-0e89186482e7",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event E triggers D. D nullifies B. B is a prerequisite for A. If Event E occurs, map the probability of A occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since E triggers D, D happens. Since D nullifies B, B cannot happen. Since B is a prerequisite for A, A cannot happen. Probability of A is 0%. Blocker is D preventing B.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "ea692744-353a-43bb-a408-0cfc5fd60298",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event E causes D. D strictly prevents B. B is required for A. If Event E occurs, map the probability of A occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since E causes D, D happens. Since D strictly prevents B, B cannot happen. Since B is required for A, A cannot happen. Probability of A is 0%. Blocker is D preventing B.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "22f100b4-c8a6-4568-9a7f-c05623ddacbf",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event A triggers B. B blocks E. E is required for D. If Event A occurs, map the probability of D occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since A triggers B, B happens. Since B blocks E, E cannot happen. Since E is required for D, D cannot happen. Probability of D is 0%. Blocker is B preventing E.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "884a7942-2b1d-48d0-8d9b-dbd8adab30d7",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event E initiates A. A nullifies C. C is required for D. If Event E occurs, map the probability of D occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since E initiates A, A happens. Since A nullifies C, C cannot happen. Since C is required for D, D cannot happen. Probability of D is 0%. Blocker is A preventing C.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "30e5d3f5-23de-4a8b-95f4-d1841d36cfba",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event C triggers B. B strictly prevents E. E is a prerequisite for A. If Event C occurs, map the probability of A occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since C triggers B, B happens. Since B strictly prevents E, E cannot happen. Since E is a prerequisite for A, A cannot happen. Probability of A is 0%. Blocker is B preventing E.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "a819f4bd-51ed-4379-a730-e254c96df8e1",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event A initiates B. B nullifies D. D is required for E. If Event A occurs, map the probability of E occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since A initiates B, B happens. Since B nullifies D, D cannot happen. Since D is required for E, E cannot happen. Probability of E is 0%. Blocker is B preventing D.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "829011da-f5ca-4b6e-bbe1-b068d6554ad8",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event A causes D. D blocks E. E is a prerequisite for C. If Event A occurs, map the probability of C occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since A causes D, D happens. Since D blocks E, E cannot happen. Since E is a prerequisite for C, C cannot happen. Probability of C is 0%. Blocker is D preventing E.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "85bd20ab-6838-4205-b829-695eff7d71ed",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event A triggers C. C nullifies E. E is required for B. If Event A occurs, map the probability of B occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since A triggers C, C happens. Since C nullifies E, E cannot happen. Since E is required for B, B cannot happen. Probability of B is 0%. Blocker is C preventing E.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "630de0d5-0739-47ef-8778-a3a606a1fa5c",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event A initiates E. E strictly prevents B. B is a prerequisite for C. If Event A occurs, map the probability of C occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since A initiates E, E happens. Since E strictly prevents B, B cannot happen. Since B is a prerequisite for C, C cannot happen. Probability of C is 0%. Blocker is E preventing B.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "bd0831a9-887a-4212-93fe-be6731983e40",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event A triggers B. B strictly prevents D. D is required for C. If Event A occurs, map the probability of C occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since A triggers B, B happens. Since B strictly prevents D, D cannot happen. Since D is required for C, C cannot happen. Probability of C is 0%. Blocker is B preventing D.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "30239499-dc6f-49e7-a7ad-2b31057a08ee",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event D causes B. B nullifies C. C is a prerequisite for A. If Event D occurs, map the probability of A occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since D causes B, B happens. Since B nullifies C, C cannot happen. Since C is a prerequisite for A, A cannot happen. Probability of A is 0%. Blocker is B preventing C.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "dcdb0580-2bb5-4b85-9047-1e262b2f7a6c",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event B initiates A. A blocks C. C is a prerequisite for E. If Event B occurs, map the probability of E occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since B initiates A, A happens. Since A blocks C, C cannot happen. Since C is a prerequisite for E, E cannot happen. Probability of E is 0%. Blocker is A preventing C.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "2b69bfb3-4580-4223-a27c-c28e08753fd0",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event B triggers E. E nullifies D. D is a prerequisite for A. If Event B occurs, map the probability of A occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since B triggers E, E happens. Since E nullifies D, D cannot happen. Since D is a prerequisite for A, A cannot happen. Probability of A is 0%. Blocker is E preventing D.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "81090dde-e2a7-49df-b082-39b3f33dc248",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event D initiates E. E strictly prevents C. C is a prerequisite for A. If Event D occurs, map the probability of A occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since D initiates E, E happens. Since E strictly prevents C, C cannot happen. Since C is a prerequisite for A, A cannot happen. Probability of A is 0%. Blocker is E preventing C.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "45a07d8b-1e85-47f1-a00c-0015b0e89ddd",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event A causes B. B strictly prevents E. E is a prerequisite for D. If Event A occurs, map the probability of D occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since A causes B, B happens. Since B strictly prevents E, E cannot happen. Since E is a prerequisite for D, D cannot happen. Probability of D is 0%. Blocker is B preventing E.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "bc758911-1d66-4ee0-adce-e264851ec041",
+      "category": "Causal Chain Breakdown",
+      "prompt": "Event E initiates A. A nullifies B. B is a prerequisite for D. If Event E occurs, map the probability of D occurring and explain the exact blocker in the causal chain.",
+      "expected_answer": "Since E initiates A, A happens. Since A nullifies B, B cannot happen. Since B is a prerequisite for D, D cannot happen. Probability of D is 0%. Blocker is A preventing B.",
+      "common_failure_mode": "Causal Skip: The LLM loses track of the negation in the middle of the chain ('prevents'), assuming positive correlation flows all the way to the end, hallucinating that the final event occurs.",
+      "image_url": null
+    },
+    {
+      "id": "c3ef77fa-cd84-4fe9-9212-30b0183c3480",
+      "category": "State-Tracking",
+      "prompt": "I put the ring in the yellow envelope. I moved the yellow envelope to the garage. I took the ring out and put it in my drawer. I moved the garage to the bedroom. Where is the ring right now?",
+      "expected_answer": "The ring is in the drawer.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "5d1dc464-5dfc-4adb-aa96-3e8a962b1088",
+      "category": "State-Tracking",
+      "prompt": "I put the marble in the backpack. I moved the backpack to the kitchen. I took the marble out and put it in my yellow envelope. I moved the kitchen to the office. Where is the marble right now?",
+      "expected_answer": "The marble is in the yellow envelope.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "301ed474-2282-4c5f-90fb-a3154abcf87a",
+      "category": "State-Tracking",
+      "prompt": "I put the ring in the safe. I moved the safe to the garage. I took the ring out and put it in my green bag. I moved the garage to the kitchen. Where is the ring right now?",
+      "expected_answer": "The ring is in the green bag.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "8e9cb20f-71cc-4a57-8752-6b73225d9a74",
+      "category": "State-Tracking",
+      "prompt": "I put the ring in the red cup. I moved the red cup to the bedroom. I took the ring out and put it in my backpack. I moved the bedroom to the living room. Where is the ring right now?",
+      "expected_answer": "The ring is in the backpack.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "f877d962-4334-40e1-9402-f106dabdd0b9",
+      "category": "State-Tracking",
+      "prompt": "I put the ring in the yellow envelope. I moved the yellow envelope to the office. I took the ring out and put it in my green bag. I moved the office to the living room. Where is the ring right now?",
+      "expected_answer": "The ring is in the green bag.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "9ee25e10-55c9-45b1-9c00-9efc2599bd66",
+      "category": "State-Tracking",
+      "prompt": "I put the watch in the pocket. I moved the pocket to the living room. I took the watch out and put it in my red cup. I moved the living room to the kitchen. Where is the watch right now?",
+      "expected_answer": "The watch is in the red cup.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "4aae10db-007b-45af-88cb-dfb48a7f80bf",
+      "category": "State-Tracking",
+      "prompt": "I put the key in the yellow envelope. I moved the yellow envelope to the bedroom. I took the key out and put it in my blue box. I moved the bedroom to the attic. Where is the key right now?",
+      "expected_answer": "The key is in the blue box.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "d2793dd2-7458-4018-8f0e-4cd79c5d7782",
+      "category": "State-Tracking",
+      "prompt": "I put the coin in the red cup. I moved the red cup to the office. I took the coin out and put it in my backpack. I moved the office to the attic. Where is the coin right now?",
+      "expected_answer": "The coin is in the backpack.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "b26b2567-ce00-4511-aa57-b1d0ef9037c9",
+      "category": "State-Tracking",
+      "prompt": "I put the ring in the red cup. I moved the red cup to the bedroom. I took the ring out and put it in my yellow envelope. I moved the bedroom to the office. Where is the ring right now?",
+      "expected_answer": "The ring is in the yellow envelope.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "250db87b-2e34-48d7-b3c1-6a35a63b3247",
+      "category": "State-Tracking",
+      "prompt": "I put the key in the safe. I moved the safe to the garage. I took the key out and put it in my green bag. I moved the garage to the office. Where is the key right now?",
+      "expected_answer": "The key is in the green bag.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "f91165b7-d502-434c-9fb9-94bfc2957b47",
+      "category": "State-Tracking",
+      "prompt": "I put the key in the pocket. I moved the pocket to the garage. I took the key out and put it in my red cup. I moved the garage to the bedroom. Where is the key right now?",
+      "expected_answer": "The key is in the red cup.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "1484c2d3-1e80-4b46-a6e2-217034ab3073",
+      "category": "State-Tracking",
+      "prompt": "I put the marble in the red cup. I moved the red cup to the garage. I took the marble out and put it in my green bag. I moved the garage to the office. Where is the marble right now?",
+      "expected_answer": "The marble is in the green bag.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "809b8d88-3497-44d0-9f23-5baaf31d05f8",
+      "category": "State-Tracking",
+      "prompt": "I put the watch in the pocket. I moved the pocket to the kitchen. I took the watch out and put it in my drawer. I moved the kitchen to the garage. Where is the watch right now?",
+      "expected_answer": "The watch is in the drawer.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "a3255567-77fd-4354-837b-7915a0e5bc3a",
+      "category": "State-Tracking",
+      "prompt": "I put the coin in the backpack. I moved the backpack to the living room. I took the coin out and put it in my drawer. I moved the living room to the garage. Where is the coin right now?",
+      "expected_answer": "The coin is in the drawer.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "a3c845fa-c946-4957-aff4-a22bc2e8327f",
+      "category": "State-Tracking",
+      "prompt": "I put the watch in the yellow envelope. I moved the yellow envelope to the bedroom. I took the watch out and put it in my green bag. I moved the bedroom to the kitchen. Where is the watch right now?",
+      "expected_answer": "The watch is in the green bag.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "cbc87183-9407-41c9-be32-3468f575fd92",
+      "category": "State-Tracking",
+      "prompt": "I put the ring in the red cup. I moved the red cup to the living room. I took the ring out and put it in my safe. I moved the living room to the office. Where is the ring right now?",
+      "expected_answer": "The ring is in the safe.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "5c59daef-d689-419f-8a93-da93f8c13d34",
+      "category": "State-Tracking",
+      "prompt": "I put the ring in the green bag. I moved the green bag to the attic. I took the ring out and put it in my backpack. I moved the attic to the garage. Where is the ring right now?",
+      "expected_answer": "The ring is in the backpack.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "68a8098e-f234-4e66-8b1e-a18a015d748d",
+      "category": "State-Tracking",
+      "prompt": "I put the key in the drawer. I moved the drawer to the garage. I took the key out and put it in my blue box. I moved the garage to the attic. Where is the key right now?",
+      "expected_answer": "The key is in the blue box.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "4151fccd-61ee-4083-8e83-55ffa38fa186",
+      "category": "State-Tracking",
+      "prompt": "I put the ring in the drawer. I moved the drawer to the living room. I took the ring out and put it in my blue box. I moved the living room to the bedroom. Where is the ring right now?",
+      "expected_answer": "The ring is in the blue box.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "13bce942-77e7-4c17-b269-d4741ff61bb9",
+      "category": "State-Tracking",
+      "prompt": "I put the ring in the drawer. I moved the drawer to the living room. I took the ring out and put it in my safe. I moved the living room to the garage. Where is the ring right now?",
+      "expected_answer": "The ring is in the safe.",
+      "common_failure_mode": "Spatial Disconnect: The LLM gets confused by the movement of the container (l1 to l2) acting as a distractor since the item was already removed and placed in c3.",
+      "image_url": null
+    },
+    {
+      "id": "41ee13df-853a-4c52-b603-73d4f47ea73f",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 1)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "5e8a0c94-1ad0-4f26-98b7-19831d838bd6",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 2)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "e6f2b7eb-e12d-465f-86dd-30d12ddb319a",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 3)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "ab347578-bf24-41d4-bf39-2f25cdcc682b",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 4)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "f129fcb0-bb89-4650-bda4-cf37f9b31064",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 5)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "d5e611d0-99d5-4dbf-b35d-a532391e60fb",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 6)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "fdb782c3-3c67-458c-99db-7d6b59ae6572",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 7)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "12e27692-7891-4eba-b438-c76739d87356",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 8)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "b17c19f9-232a-4e70-afb2-c5520b8e3154",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 9)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "58d18f0f-c7c4-4474-94a7-0f1d62534a39",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 10)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "2268c97d-04b0-46d2-8c5a-80973534c3fd",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 11)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "35eb0aa8-0dbc-43fe-a825-1ee1d93f2b8f",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 12)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "7f9406f3-f515-4e64-9c3a-76df25ee8a03",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 13)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "ff21235e-6e5c-4b05-aba7-5844b30b342f",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 14)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "56422789-f37e-40c6-8a4d-7bc33cb8e28b",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 15)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "3e2edee2-94e7-4e34-8d78-703dff6a00ef",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 16)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "bfc345eb-6429-4960-a6b6-e3ed5128ef36",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 17)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "3b932d13-3149-42d4-b587-2347c760339f",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 18)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "1b2d7f38-179e-4560-becb-d3455e8904ed",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 19)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    },
+    {
+      "id": "142d16eb-ad93-4616-87e1-b357e43589b8",
+      "category": "Spatial Diagram",
+      "prompt": "Based on the provided spatial-reference diagram, deduce the position of the unseen blocks. If block A is visible at the top, and block B is supporting it but partially occluded, what is the minimum number of blocks required to support this structure from the ground up? (Variation 20)",
+      "expected_answer": "The exact number of supporting blocks deduced from the isomorphic projection rules.",
+      "common_failure_mode": "Multimodal Hallucination: The LLM fails to correctly infer the 3D volume from the 2D isometric projection and guesses the number of supporting blocks.",
+      "image_url": "/spatial-reference.png"
+    }
+  ]
+}

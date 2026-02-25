@@ -1,0 +1,12 @@
+pandas
+numpy
+requests
+scikit-learn
+matplotlib
+seaborn
+tqdm
+python-dotenv
+pytest
+black
+flake8
+isort

@@ -1,0 +1,8 @@
+# Security
+.env
+
+# Dependencies
+node_modules/
+__pycache__/
+.next/
+*.html
